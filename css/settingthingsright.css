@@ -1,0 +1,141 @@
+.animations .animation-list {
+  position: relative;
+  width: 600px;
+  height: 380px;
+  overflow: hidden;
+  background: #000000;
+  background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMTAwJSIgeDI9IjEwMCUiIHkyPSIwJSI+CiAgICA8c3RvcCBvZmZzZXQ9IjAlIiBzdG9wLWNvbG9yPSIjMDAwMDAwIiBzdG9wLW9wYWNpdHk9IjEiLz4KICAgIDxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzM4Mjk3NSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+  background: -moz-linear-gradient(45deg, #000000 0%, #1C4162 100%);
+  background: -webkit-linear-gradient(45deg, #000000 0%, #1C4162 100%);
+  background: linear-gradient(45deg, #000000 0%, #1C4162 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#1C4162', GradientType=1);
+}
+.animations .anim {
+  font-size: 24px;
+  position: absolute;
+  left: 40px;
+  width: 465px;
+  color: #fff;
+  -webkit-transition: 2s all;
+  -o-transition: 2s all;
+  transition: 2s all;
+  padding: 0 20px;
+}
+.animations .anim span {
+  display: inline-block;
+  position: absolute;
+  margin-left: 20px;
+  top: 0;
+}
+.animations .out span {
+  right: auto;
+}
+.animations .out.anim1 {
+  -webkit-transform: translate(200px, 500px) rotate(93deg) scaleX(3) scaleY(3);
+  transform: translate(200px, 500px) rotate(93deg) scaleX(3) scaleY(3);
+  -webkit-opacity: 0.8;
+  -moz-opacity: 0.8;
+  -ms-opacity: 0.8;
+  -o-opacity: 0.8;
+  opacity: 0.8;
+}
+.animations .out.anim2 {
+  -webkit-transform: translate(100px, 30px) rotate(30deg) scaleX(0.5) scaleY(0.5);
+  transform: translate(100px, 30px) rotate(30deg) scaleX(0.5) scaleY(0.5);
+  -webkit-opacity: 0.4;
+  -moz-opacity: 0.4;
+  -ms-opacity: 0.4;
+  -o-opacity: 0.4;
+  opacity: 0.4;
+}
+.animations .out.anim3 {
+  -webkit-transform: translate(20px, 200px) rotate(-60deg) scaleX(2) scaleY(2);
+  transform: translate(20px, 200px) rotate(-60deg) scaleX(2) scaleY(2);
+  -webkit-opacity: 0.6;
+  -moz-opacity: 0.6;
+  -ms-opacity: 0.6;
+  -o-opacity: 0.6;
+  opacity: 0.6;
+}
+.animations .out.anim4 {
+  -webkit-transform: translate(-140px, 90px) rotate(-160deg) scaleX(3) scaleY(3);
+  transform: translate(-140px, 90px) rotate(-160deg) scaleX(3) scaleY(3);
+  -webkit-opacity: 0.8;
+  -moz-opacity: 0.8;
+  -ms-opacity: 0.8;
+  -o-opacity: 0.8;
+  opacity: 0.8;
+}
+.animations .out.anim5 {
+  -webkit-transform: translate(-70px, 170px) rotate(-10deg) scaleX(1) scaleY(1);
+  transform: translate(-70px, 170px) rotate(-10deg) scaleX(1) scaleY(1);
+  -webkit-opacity: 0.5;
+  -moz-opacity: 0.5;
+  -ms-opacity: 0.5;
+  -o-opacity: 0.5;
+  opacity: 0.5;
+}
+.animations .out.anim6 {
+  -webkit-transform: translate(-100px, 260px) rotate(70deg) scaleX(0.7) scaleY(0.7);
+  transform: translate(-100px, 260px) rotate(70deg) scaleX(0.7) scaleY(0.7);
+  -webkit-opacity: 0.4;
+  -moz-opacity: 0.4;
+  -ms-opacity: 0.4;
+  -o-opacity: 0.4;
+  opacity: 0.4;
+}
+.animations .out.anim7 {
+  -webkit-transform: translate(540px, 70px) rotate(-30deg) scaleX(3) scaleY(3);
+  transform: translate(540px, 70px) rotate(-30deg) scaleX(3) scaleY(3);
+}
+.animations .out.anim8 {
+  -webkit-transform: translate(-30px, 320px) rotate(220deg) scaleX(1.3) scaleY(1.3);
+  transform: translate(-30px, 320px) rotate(220deg) scaleX(1.3) scaleY(1.3);
+  -webkit-opacity: 0.7;
+  -moz-opacity: 0.7;
+  -ms-opacity: 0.7;
+  -o-opacity: 0.7;
+  opacity: 0.7;
+}
+.animations .in {
+  -webkit-opacity: 1;
+  -moz-opacity: 1;
+  -ms-opacity: 1;
+  -o-opacity: 1;
+  opacity: 1;
+}
+.animations .in span {
+  right: 0;
+}
+.animations .in.anim1 {
+  -webkit-transform: translate(0px, 30px) rotate(0deg) scaleX(1) scaleY(1);
+  transform: translate(0px, 30px) rotate(0deg) scaleX(1) scaleY(1);
+}
+.animations .in.anim2 {
+  -webkit-transform: translate(0, 70px) rotate(0deg) scaleX(1) scaleY(1);
+  transform: translate(0, 70px) rotate(0deg) scaleX(1) scaleY(1);
+}
+.animations .in.anim3 {
+  -webkit-transform: translate(0, 110px) rotate(0deg) scaleX(1) scaleY(1);
+  transform: translate(0, 110px) rotate(0deg) scaleX(1) scaleY(1);
+}
+.animations .in.anim4 {
+  -webkit-transform: translate(0, 150px) rotate(0deg) scaleX(1) scaleY(1);
+  transform: translate(0, 150px) rotate(0deg) scaleX(1) scaleY(1);
+}
+.animations .in.anim5 {
+  -webkit-transform: translate(0, 190px) rotate(0deg) scaleX(1) scaleY(1);
+  transform: translate(0, 190px) rotate(0deg) scaleX(1) scaleY(1);
+}
+.animations .in.anim6 {
+  -webkit-transform: translate(0, 230px) rotate(0deg) scaleX(1) scaleY(1);
+  transform: translate(0, 230px) rotate(0deg) scaleX(1) scaleY(1);
+}
+.animations .in.anim7 {
+  -webkit-transform: translate(0, 270px) rotate(0deg) scaleX(1) scaleY(1);
+  transform: translate(0, 270px) rotate(0deg) scaleX(1) scaleY(1);
+}
+.animations .in.anim8 {
+  -webkit-transform: translate(0, 310px) rotate(0deg) scaleX(1) scaleY(1);
+  transform: translate(0, 310px) rotate(0deg) scaleX(1) scaleY(1);
+}

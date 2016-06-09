@@ -1,0 +1,79 @@
+body {
+  font: 16px/1.5em sans-serif;
+}
+.wrap {
+  width: 800px;
+  margin: 0 auto;
+}
+button {
+  border: 0 none;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  padding: 5px 15px;
+  background: #ccc;
+  font-size: 1.1em;
+  cursor: pointer;
+  -webkit-transition: 0.3s all;
+  -o-transition: 0.3s all;
+  transition: 0.3s all;
+}
+button:hover {
+  -webkit-opacity: 0.6;
+  -moz-opacity: 0.6;
+  -ms-opacity: 0.6;
+  -o-opacity: 0.6;
+  opacity: 0.6;
+}
+button.active {
+  color: #fff;
+  background: darkslateblue;
+  cursor: default;
+}
+.animation-list,
+h1 {
+  font-family: "Roboto Slab", sans-serif;
+}
+h1 {
+  color: darkslateblue;
+}
+.bubbles svg {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+#explain {
+  background: darkslateblue url("http://rayhyde.nl/playground/img/playground.png") no-repeat 98% bottom / 150px auto;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  border-radius: 10px;
+  color: #fff;
+  margin: 30px 0;
+  min-height: 160px;
+  padding: 20px;
+}
+#explain > p {
+  line-height: 150%;
+}
+#explain > p.extra-padding {
+  padding-right: 160px;
+}
+#explain h2 {
+  margin: 0 0 10px;
+}
+#explain a {
+  border-bottom: 1px solid #fff;
+  color: #fff;
+  text-decoration: none;
+  -webkit-transition: 0.3s all;
+  -o-transition: 0.3s all;
+  transition: 0.3s all;
+}
+#explain a:hover {
+  border-color: transparent;
+  text-decoration: none;
+}
